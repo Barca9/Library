@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import store from "./redux/store";
 import {Provider} from "react-redux";
-import * as dotenv from 'dotenv';
-dotenv.config()
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
