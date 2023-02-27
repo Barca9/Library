@@ -1,0 +1,18 @@
+@keyframes change-color {
+    from { color: orange }
+    to { color: black }
+}
+
+@keyframes change-radius {
+    from { border-radius: 0 }
+    to { border-radius: 50% }
+}
+
+.spinner{
+     margin: 0 auto;
+     width: 90px;
+     height: 90px;
+     border: 13px solid;
+     animation: change-color 1s infinite alternate-reverse, change-radius 1s infinite alternate-reverse;
+
+}
